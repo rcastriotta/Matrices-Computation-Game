@@ -7159,6 +7159,11 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
+matrix-js@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/matrix-js/-/matrix-js-1.6.1.tgz#4b9f44d7cf9fd2c14bcd85003f7b2b39a784c3c0"
+  integrity sha512-Lc7rDBJCL0ZK+ptRW246EYrcfYx0EeOCPrOwDxm3ZV7zpKzM3Kx1nzl4w3ElmS/TwMwkFTaCsT1U7FKPHYLkhg==
+
 mdn-data@2.0.14:
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
@@ -7312,6 +7317,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
+nblas@^2.1.9:
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/nblas/-/nblas-2.1.9.tgz#5cbdd948b8bef5b0a3ff4cc6c2b081145853b48e"
+  integrity sha512-nMMTKm+ETAT2fYbR54Y3v448iu9akEA2wDRM0mQL8bvjBHBL2zRu3Ww68k0/OLwWb5uQG9ovRNunV1UUjZEREw==
+
 negotiator@0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.3.tgz#58e323a72fedc0d6f9cd4d31fe49f51479590ccd"
@@ -7321,6 +7331,11 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+nlapack@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/nlapack/-/nlapack-2.0.4.tgz#ab04cdafc32edb98a3d28864f231f5bc78a1515f"
+  integrity sha512-wOSREY+1LoAQCJkOR+d4xNFXYZEPaXH8iLxbAHCFj/+ynMtNGfWOihMzTEo6rL+fzVIWcoU00zFxNB34+8BXSw==
 
 no-case@^3.0.4:
   version "3.0.4"
@@ -9827,6 +9842,14 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
+vectorious@^6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/vectorious/-/vectorious-6.1.4.tgz#5adab922419e06d21290392f948a3544ba47c412"
+  integrity sha512-3xKPhuG8j6XCdaClpkIh5rnJPM+NjcHlUJJYsI/zMFWZEWHCa4uY1/qxnIh6LXdX9zVTXl0vD00eHJaP49ze5A==
+  optionalDependencies:
+    nblas "^2.1.9"
+    nlapack "^2.0.4"
+
 w3c-hr-time@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
@@ -9867,6 +9890,11 @@ web-vitals@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.4.tgz#76563175a475a5e835264d373704f9dde718290c"
   integrity sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==
+
+webfontloader@^1.6.28:
+  version "1.6.28"
+  resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.28.tgz#db786129253cb6e8eae54c2fb05f870af6675bae"
+  integrity sha512-Egb0oFEga6f+nSgasH3E0M405Pzn6y3/9tOVanv/DLfa1YBIgcv90L18YyWnvXkRbIM17v5Kv6IT2N6g1x5tvQ==
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
